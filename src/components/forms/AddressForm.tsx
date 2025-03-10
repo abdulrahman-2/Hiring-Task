@@ -90,7 +90,7 @@ export default function AddressForm({
             type="submit"
             className="bg-gradient-to-r from-[#E8BA7B] to-[#A0712C]"
           >
-            اضافة العنوان
+            {initialData ? "حفظ التغييرات" : "اضافة العنوان"}
           </Button>
           <Button
             type="button"
