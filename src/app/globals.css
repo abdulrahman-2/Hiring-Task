@@ -2,6 +2,11 @@
 
 @plugin "tailwindcss-animate";
 
+@theme {
+  --background-main: #fbf5f5;
+  --color-text: #642b24;
+}
+
 @custom-variant dark (&:is(.dark *));
 
 :root {

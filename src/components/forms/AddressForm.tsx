@@ -26,7 +26,7 @@ export default function AddressForm({
       name: "",
       street: "",
       city: "",
-      postalCode: "",
+      zipCode: "",
       country: "",
     },
   });
@@ -72,7 +72,7 @@ export default function AddressForm({
 
           <AddressFormField
             control={form.control}
-            name="postalCode"
+            name="zipCode"
             label="الرمز البريدي"
             placeholder="أدخل الرمز البريدي (5 ارقام)"
           />

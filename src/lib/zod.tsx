@@ -6,7 +6,7 @@ export const addressSchema = z.object({
   name: z.string().min(3, "مطلوب، ويجب أن يحتوي على 3 أحرف على الأقل"),
   street: z.string().min(3, "مطلوب، ويجب أن يحتوي على 3 أحرف على الأقل"),
   city: z.string().min(3, "مطلوب، ويجب أن يحتوي على 3 أحرف على الأقل"),
-  postalCode: z.string().min(5, "مطلوب، ويجب أن يحتوي على 5 أحرف على الأقل"),
+  zipCode: z.string().min(5, "مطلوب، ويجب أن يحتوي على 5 أحرف على الأقل"),
   country: z.string().min(3, "مطلوب، ويجب أن يحتوي على 3 أحرف على الأقل"),
 });
 

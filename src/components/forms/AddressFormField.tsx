@@ -28,13 +28,13 @@ export default function AddressFormField({
       name={name}
       render={({ field, fieldState: { error } }) => (
         <FormItem>
-          <FormLabel className="text-sm text-[#642B24]/60">{label}</FormLabel>
+          <FormLabel className="text-sm text-text/60">{label}</FormLabel>
           <FormControl>
             <div className="relative">
               <Input
                 {...field}
                 placeholder={placeholder}
-                className="text-sm bg-[#FBF5F5] pr-8 text-[#642B24]/60"
+                className="text-sm bg-[var(--background-main)] pr-8 text-text/60"
               />
               <div className="absolute inset-y-0 right-2 flex items-center pl-3 pointer-events-none">
                 <MapPin className="h-4 w-4 text-gray-500" />
