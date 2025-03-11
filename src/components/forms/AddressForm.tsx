@@ -26,7 +26,7 @@ export default function AddressForm({
       name: "",
       street: "",
       city: "",
-      buildingNumber: "",
+      postalCode: "",
       country: "",
     },
   });
@@ -46,7 +46,7 @@ export default function AddressForm({
             control={form.control}
             name="title"
             label="عنوان الموقع"
-            placeholder="المنزل، العمل، إلخ"
+            placeholder="أدخل عنوان الموقع"
           />
 
           <AddressFormField
@@ -72,9 +72,9 @@ export default function AddressForm({
 
           <AddressFormField
             control={form.control}
-            name="buildingNumber"
+            name="postalCode"
             label="الرمز البريدي"
-            placeholder="أدخل رقم المبنى"
+            placeholder="أدخل الرمز البريدي (5 ارقام)"
           />
 
           <AddressFormField

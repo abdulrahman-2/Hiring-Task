@@ -34,7 +34,7 @@ export default function AddressFormField({
               <Input
                 {...field}
                 placeholder={placeholder}
-                className="text-sm bg-[#FBF5F5] pr-8"
+                className="text-sm bg-[#FBF5F5] pr-8 text-[#642B24]/60"
               />
               <div className="absolute inset-y-0 right-2 flex items-center pl-3 pointer-events-none">
                 <MapPin className="h-4 w-4 text-gray-500" />
